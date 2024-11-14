@@ -6,17 +6,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
-header {
-    background-color: rgb(25, 171, 255);
-}
-  .menu-toggle {
+.menu-toggle {
     display: none;
 }
-
 .menu-icon {
     font-size: 24px;
-    cursor: pointer;
     color: white;
 }
 .menu {
@@ -50,41 +44,68 @@ header {
 }
 header #description {
     position: absolute;
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
 }
-
 header #description #navigation h3 {
     color: white;
 }
-
 header #description #navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
 header #description h1 {
     color: white;
     text-align: center;
     width: 369px;
     font-size: 40px;
 }
+header .image-header{
+    background-image: url('./photo-mobile/image-header.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 500px;
 
-header img {
-    width: 100%;
 }
+
 main #section1 div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    padding: 20px;
     position: relative;
 }
 
-main #section1 img {
+main #section1 #image1{
+    background-image: url('./photo-mobile/image-transform.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
     width: 100%;
 }
-main #section1 div #description {
+main #section1 #image2{
+    background-image: url('./photo-mobile/image-stand-out.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+}
+main #section1 #image3{
+    background-image: url('./photo-mobile/image-graphic-design.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+main #section1 #image4{
+    background-image: url('./photo-mobile/image-photography.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+main #section1 #description {
     position: absolute;
 }
 main #section1 .titre {
