@@ -9,6 +9,12 @@ header #description #navigation h3{
     position: relative;
     right: 130px;
 }
+header .image-header{
+    background-image: url('./photo-desktop/image-header.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 550px;
+}
 header #description{
     left: 150px;
 }
@@ -16,14 +22,43 @@ header #description h1{
     width: 100%;  
 }
 main #section1{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-main #section1 div{
-    flex: 1 1 50%;
-    padding: 0;
-    line-height: 0;
+main #section1 #image1:nth-child(1){
+    grid-column: 2;
+    grid-row: 1;
 }
+main #section1 #image1{
+    background-image: url('./photo-desktop/image-transform.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
+main #section1 #image2{
+    background-image: url('./photo-desktop/image-stand-out.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
+main #section1 #image3{
+    background-image: url('./photo-desktop/image-graphic-design.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 350px;
+   width: 100%;
+}
+main #section1 #image4{
+    background-image: url('./photo-desktop/image-photography.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 350px;
+   width: 100%;
+}
+main #section1 #image-texte{
+    position: relative;
+}
+
 main #section2 #person{
     display: flex;
     flex-direction: row;
@@ -41,11 +76,34 @@ main #section2 #person div p{
     padding: 10px;
 }
 main #groupe-image{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    display: flex;   
 }
-main #groupe-image picture{
-    flex:25%;
-    
+main #groupe-image .image1{
+   background-image: url('./photo-desktop/image-gallery-milkbottles.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   width: 25%;
 }
+main #groupe-image .image2{
+    background-image: url('./photo-desktop/image-gallery-orange.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 25%;
+ }
+ main #groupe-image .image3{
+    background-image: url('./photo-desktop/image-gallery-cone.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 25%;
+ }
+ main #groupe-image .image4{
+    background-image: url('./photo-desktop/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 25%;
+ }
+
