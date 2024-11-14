@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(25, 171, 255);
+}
+  .menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+.menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    display: none;
+    padding: 40px 110px;
+    text-align: center;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.menu a .contact {
+    background-color: #fbc02d;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.menu-toggle:checked + .menu-icon + .menu {
+    display: block;
+}
+header #description {
+    position: absolute;
+    padding: 10px;
+}
+
+header #description #navigation h3 {
+    color: white;
+}
+
+header #description #navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+header #description h1 {
+    color: white;
+    text-align: center;
+    width: 369px;
+    font-size: 40px;
+}
+
+header img {
+    width: 100%;
+}
+main #section1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    position: relative;
+}
+
+main #section1 img {
+    width: 100%;
+}
+main #section1 div #description {
+    position: absolute;
+}
+main #section1 .titre {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    width: 327px;
+}
+main #section1 .paragraphe {
+    width: 270px;
+    text-align: center;
+    line-height: 25px;
+}
+main #section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 33px;
+}
+main #section2 h3{
+    text-align: center;
+}
+main #section2 div{
+    text-align: center;
+}
+main #section2 div img {
+    clip-path: circle();
+    width: 80px;
+}
+main #section2 div .paragraphe{
+    width: 350px;
+}
+main #groupe-image img{
+    width: 49%;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+footer #nav1{
+    display: flex;
+    justify-content: space-around;
+}
+footer #nav1 a{
+    text-decoration: none;
+    color: black;
+}
+footer #nav2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px 0;
+}
