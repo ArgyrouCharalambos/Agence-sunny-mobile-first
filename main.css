@@ -1,3 +1,2 @@
 @import url('mobile.css');
-@import url('destop.css') screen and (min-width: 768px);
-@import url('destop-large.css') screen and (min-width: 1024px);
+@import url('desktop.css') screen and (min-width: 768px);
