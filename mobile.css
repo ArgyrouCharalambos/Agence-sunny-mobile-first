@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -109,6 +110,7 @@ main #section1 #description {
     position: absolute;
 }
 main #section1 .titre {
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 10px;
     font-size: 30px;
@@ -118,6 +120,22 @@ main #section1 .paragraphe {
     width: 270px;
     text-align: center;
     line-height: 25px;
+}
+main #section1 #groupe2{
+    padding: 50px 0;
+}
+main #section1 #groupe2 a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 10px rosybrown solid;
+}
+main #section1 #description2 a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 10px rosybrown solid;
+}
+main #section1 #description2{
+    padding: 50px 0;
 }
 main #section2{
     display: flex;
