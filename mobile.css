@@ -43,29 +43,29 @@ header #menu #contact {
 header .menu-toggle:checked + .menu-icon + #menu {
     display: block;
 }
-header #description {
+header #description0 {
     position: absolute;
     width: 100%;
     padding: 20px;
 }
-header #description #navigation h3 {
+header #description0 #navigation h3 {
     color: white;
 }
-header #description #navigation {
+header #description0 #navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header #description #groupe-header{
+header #description0 #groupe-header{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-header #description #groupe-header #image-fleche{
+header #description0 #groupe-header #image-fleche{
     position: relative;
     top: 30px;
 }
-header #description h1 {
+header #description0 h1 {
     color: white;
     text-align: center;
     width: 369px;
@@ -112,7 +112,7 @@ main #section1 #image4{
     height: 600px;
     width: 100%;
 }
-main #section1 #description {
+main #section1 #description1 {
     position: absolute;
 }
 main #section1 .titre {

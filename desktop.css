@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
 }
-header #description #navigation h3{
+header #description0 #navigation h3{
     position: relative;
 }
 header .image-header{
@@ -37,14 +37,14 @@ header #menu #contact {
     background-color: rgba(255, 255, 255, 0.372);
 
 }
-header #description h1{
+header #description0 h1{
     width: 100%;  
 }
 main #section1{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-main #section1 #description .titre{
+main #section1 #description1 .titre{
     position: relative;
     top: 38px;  
 }
