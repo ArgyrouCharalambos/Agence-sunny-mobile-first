@@ -128,10 +128,7 @@ main #section1 .paragraphe {
     text-align: center;
     line-height: 25px;
 }
-main #section1 .description{
-    padding: 50px 0;
-}
-main #section1 .description a {
+main #section1 .description__texte a {
     text-decoration: none;
     color: black;
     border-bottom: 10px rosybrown solid;
@@ -140,9 +137,8 @@ main #section1 .description__texte a {
     text-decoration: none;
     color: black;
     border-bottom: 10px rosybrown solid;
-}
-main #section1 .description{
-    padding: 50px 0;
+    position: relative;
+    top: -10px;
 }
 main #section2{
     display: flex;
