@@ -44,7 +44,7 @@ main #section1{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-main #section1 #description1,#description2 .titre{
+main #section1 .description .titre{
     position: relative;
     top: 38px;  
 }
@@ -80,7 +80,7 @@ main #section1 #image4{
    height: 400px;
    width: 100%;
 }
-main #section1 #description2,#description1{
+main #section1 .description{
     height: 400px;
 }
 main #section1 #groupe2{
